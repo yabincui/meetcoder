@@ -2,7 +2,8 @@ include gmsl-1.1.7/gmsl
 
 UnitTestList := MaxSubArraySumTest CalculateProbabilityTest StringCompressionTest \
                 ReadSumOfDigitsTest MakePairsTest PowerOfTwoTest MaximizeNumberWithSwapTest \
-                ConnectedGraphTest CoverTheMagicBoardTest \
+                ConnectedGraphTest CoverTheMagicBoardTest MakeSequenceInAscendingOrderTest \
+                PalindromicSubstringsTest \
 
 all: $(call last,$(UnitTestList))
 
